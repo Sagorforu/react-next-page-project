@@ -16,13 +16,13 @@ const Header = () => {
                     <li>
                         <NavLink
                             to='/'
-                            className={({ isActive }) => isActive ? 'text-purple-700' : ''}
+                            className={({ isActive }) => isActive ? 'active' : 'default'}
                         >Home</NavLink>
                     </li>
                     <li>
                         <NavLink
                             to='/books'
-                            className={({ isActive }) => isActive ? 'text-purple-700' : ''}
+                            className={({ isActive }) => isActive ? 'active' : 'default'}
                         >Books</NavLink>
                     </li>
                     <li>
